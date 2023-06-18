@@ -1,0 +1,125 @@
+/*CSS NAVBAR*/
+.navbar {
+    background-color: #324F87;    
+}
+.navbar-nav {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+}
+.navbar-botonmenu .bi-list {
+    color: #ffffff;
+    font-size: 2rem;
+}
+.navbar-nav .nav-link {
+    color: #ffffff !important; 
+    font-size: 1.5rem;   
+}
+#muenudrop {
+    background-color: #324F87;
+}
+#muenudrop .dropdown-item {
+    color: #ffffff;
+    
+}
+#muenudrop .dropdown-item:hover {
+    color: #0c0000;
+}
+
+.menu {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 200px;
+    height: 100vh;
+    background-color: #f0f0f0;
+  }
+  
+  .menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .menu li {
+    margin-bottom: 10px;
+  }
+  
+  .menu a {
+    display: block;
+    padding: 8px 10px;
+    color: #333333;
+    text-decoration: none;
+  }
+  
+  .menu a:hover {
+    background-color: #dddddd;
+  }
+
+  .imagen-pequena {
+    width: 180px;
+    height: auto;
+  }
+  .imagen-con-lineas {
+    position: relative;
+  }
+  
+  .imagen-con-lineas::before,
+  .imagen-con-lineas::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 4px;
+    background-color: #324F87;
+    border-radius: 2px;
+  }
+  
+  .imagen-con-lineas::before {
+    top: -5px; /* Ajusta el valor del margen superior */
+  }
+  
+  .imagen-con-lineas::after {
+    bottom: -5px; /* Ajusta el valor del margen inferior */
+  }
+  
+  
+
+  .bg-blue {
+    background-color: #CADCFF;
+  }
+
+  #menu li.nav-item span {
+    color: #324F87;
+    font-weight: bold;
+    font-size: 1.5rem;
+  }
+
+  .nav-link {
+    display: flex;
+    align-items: center;
+  }
+  
+  .icono-sidebar {
+    margin-right: 5px;
+    display: inline-block;
+    vertical-align: middle;
+  }
+  
+  .nav-link span {
+    display: inline-block;
+    vertical-align: middle;
+  }
+  
+
+  .icono-sidebar {
+    width: 40px;
+    
+  }	
+
+
+  
+
+  
+
+ 

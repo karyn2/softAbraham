@@ -20,3 +20,5 @@ Route::get('/', function () {
 Auth::routes();
 Route::resource('usuarios', App\Http\Controllers\UsuarioController::class)->middleware('auth');
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+
+
