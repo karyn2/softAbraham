@@ -100,27 +100,27 @@
              <!-- Contenido de la barra lateral -->
              <div class="d-flex flex-column align-items-center align-items-sm-start px-3 pt-2 text-white min-vh-100">
                 <a href="" class="imagen-con-lineas">
-                <img src="{{ asset('storage/images/logo.webp') }}" alt="Imagen 1" class="imagen-pequena"> 
+                <img src="{{ asset('img\logo.webp') }}" alt="Imagen 1" class="imagen-pequena"> 
                 </a>
                 <ul class="nav nav-pills flex-column mb-sm-auto mb-0 align-items-center align-items-sm-start" id="menu">
                     <li class="nav-item ">
                         <a href="#" class="nav-link align-middle px-0">
-                        <img src="{{ asset('storage\images\Inicio.png') }}" alt="Inicio" class="icono-sidebar"><span class="ms-1 d-none d-sm-inline ">Inicio</span>
+                        <img src="{{ asset('img\Inicio.png') }}" alt="Inicio" class="icono-sidebar"><span class="ms-1 d-none d-sm-inline ">Inicio</span>
                         </a>
                     </li>
                     <li class="nav-item ">
                         <a href="#" class="nav-link align-middle px-0">
-                        <img src="{{ asset('storage\images\usuario.png') }}" alt="usuario" class="icono-sidebar"> <span class="ms-1 d-none d-sm-inline ">Usuario</span>
+                        <img src="{{ asset('img\usuario.png') }}" alt="usuario" class="icono-sidebar"> <span class="ms-1 d-none d-sm-inline ">Usuario</span>
                         </a>
                     </li>
                     <li class="nav-item ">
                         <a href="#" class="nav-link align-middle px-0">
-                        <img src="{{ asset('storage\images\matricula.png') }}" alt="matricula" class="icono-sidebar"> <span class="ms-1 d-none d-sm-inline ">Matricula</span>
+                        <img src="{{ asset('img\matricula.png') }}" alt="matricula" class="icono-sidebar"> <span class="ms-1 d-none d-sm-inline ">Matricula</span>
                         </a>
                     </li>
                     <li class="nav-item ">
                         <a href="#" class="nav-link align-middle px-0">
-                        <img src="{{ asset('storage\images\notas.png') }}" alt="notas" class="icono-sidebar"> <span class="ms-1 d-none d-sm-inline vertical-center">Notas</span>
+                        <img src="{{ asset('img\notas.png') }}" alt="notas" class="icono-sidebar"> <span class="ms-1 d-none d-sm-inline vertical-center">Notas</span>
                         </a>
                     </li>
                 </ul>
