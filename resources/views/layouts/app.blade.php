@@ -21,6 +21,7 @@
 
 
     <!-- Scripts   -->
+    <!-- Scripts  comentario niko -->
     @vite(['resources/sass/app.scss', 'resources/js/app.js'])
 </head>
 <body>
@@ -45,7 +46,6 @@
                             <a class="nav-link active" aria-current="page" href="#"><b>Institucion Educativa Siglo XX</b></a>
                         </li>
                     </ul>
-
                     <!-- Right Side Of Navbar -->
                     <ul class="navbar-nav ms-auto">
                         <!-- Authentication Links -->
@@ -89,7 +89,7 @@
         </nav>
     </div>
 
-    @auth
+@auth
 <!-- Sidebar -->
 <div class="container-fluid">
     <div class="row">
