@@ -23,6 +23,7 @@
 </div>-->
 
 <div class="container">
+  <!--
     <div class="row">
       <div class="col-md-4">
         <a href="pagina_opcion_1.html" class="menu-option" style="background-color: #32D2F6;">
@@ -43,6 +44,7 @@
         </a>
       </div>
     </div>
+    -->
     <div class="row">
       <div class="col-md-4">
         <a href="pagina_opcion_4.html" class="menu-option" style="background-color: #419BED;">
@@ -50,6 +52,7 @@
           <div>Agregar<br>Docentes y Estudiantes</div>
         </a>
       </div>
+      <!--
       <div class="col-md-4">
         <a href="pagina_opcion_5.html" class="menu-option" style="background-color: #EB4FAD;">
         <img src="{{ asset('img\verEst.png') }}" alt="matricula" class="icono-sidebar">
@@ -62,6 +65,7 @@
           <div>Configurar<br>Horarios de clase</div>
         </a>
       </div>
+      -->
     </div>
   </div>
 @endsection

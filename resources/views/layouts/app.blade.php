@@ -68,8 +68,10 @@
                                 </a>
 
                                 <div class=" dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink" id="muenudrop">
+                               <!--
                                 <a class="dropdown-item" href="#">Perfil</a>
                                 <a class="dropdown-item" href="#">Configuración</a>
+                               -->
                                 <div class="dropdown-divider"></div>
                                 <a class="dropdown-item" href="{{ route('logout') }}"
                                        onclick="event.preventDefault();
@@ -103,15 +105,17 @@
                 </a>
                 <ul class="nav nav-pills flex-column mb-sm-auto mb-0 align-items-center align-items-sm-start" id="menu">
                     <li class="nav-item ">
-                        <a href="#" class="nav-link align-middle px-0">
-                        <img src="{{ asset('img\Inicio.png') }}" alt="Inicio" class="icono-sidebar"><span class="ms-1 d-none d-sm-inline ">Inicio</span>
+                        <a href="{{ route('home') }}" class="nav-link align-middle px-0">
+                        <img src="{{ asset('img\Inicio.png') }}" alt="Inicio" class="icono-sidebar"><span class="ms-1 d-none d-sm-inline "> <b>Inicio</b></span>
                         </a>
                     </li>
                     <li class="nav-item ">
                         <a href="{{ route('register') }}" class="nav-link align-middle px-0">
-                        <img src="{{ asset('img\usuario.png') }}" alt="usuario" class="icono-sidebar"> <spam class="ms-1 d-none d-sm-inline ">Registro Usuario</spam>
+                        <img src="{{ asset('img\usuario.png') }}" alt="usuario" class="icono-sidebar"><span class="ms-1 d-none d-sm-inline "> <b>Usuarios</b></span>
                         </a>
                     </li>
+                  
+                    <!--
                     <li class="nav-item ">
                         <a href="#" class="nav-link align-middle px-0">
                         <img src="{{ asset('img\matricula.png') }}" alt="matricula" class="icono-sidebar"> <span class="ms-1 d-none d-sm-inline ">Matricula</span>
@@ -122,6 +126,7 @@
                         <img src="{{ asset('img\notas.png') }}" alt="notas" class="icono-sidebar"> <span class="ms-1 d-none d-sm-inline vertical-center">Notas</span>
                         </a>
                     </li>
+                    -->
                 </ul>
             </div>
         </div>
