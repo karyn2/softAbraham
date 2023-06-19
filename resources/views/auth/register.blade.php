@@ -96,7 +96,7 @@
                             <div class="col-sm-4" >
                                 <div class="card">
                                     <div class="card-body">
-                                        <img src="http://localhost/Programas/softAbraham/public/img/logo.webp" alt="imagen en blanco" width="235">
+                                        <img src="{{asset('img/logo.webp')}}" alt="Imagen en blanco" width="235">
                                     </div>
                                 </div><br>
                                 <div class="row mb-0" >
