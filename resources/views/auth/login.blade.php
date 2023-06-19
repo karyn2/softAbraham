@@ -7,19 +7,16 @@
  
     <link href="https://fonts.bunny.net/css?family=Nunito" rel="stylesheet">
 
-		 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-        <link rel="stylesheet" href="{{asset('css/main.css')}}">
-        <link rel="stylesheet" href="{{asset('vendor/animate/animate.css')}}">
-        <link rel="stylesheet" href="{{asset('vendor/bootstrap/css/bootstrap.min.css')}}">
-
-        <link rel="stylesheet" href="{{asset('vendor/css-hamburgers/hamburgers.min.css')}}">
-        <link rel="stylesheet" href="{{asset('vendor/animsition/css/animsition.min.css')}}">
-        <link rel="stylesheet" href="{{asset('vendor/daterangepicker/daterangepicker.css')}}">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="{{asset('css/main.css')}}">
+    <link rel="stylesheet" href="{{asset('vendor/animate/animate.css')}}">
+    <link rel="stylesheet" href="{{asset('vendor/bootstrap/css/bootstrap.min.css')}}">
+    <link rel="stylesheet" href="{{asset('vendor/css-hamburgers/hamburgers.min.css')}}">
+    <link rel="stylesheet" href="{{asset('vendor/animsition/css/animsition.min.css')}}">
+    <link rel="stylesheet" href="{{asset('vendor/daterangepicker/daterangepicker.css')}}">
 </head>
 <body>
-
-    <div class="limiter">
-        
+    <div class="limiter">     
         <div class="container-login100">
             <div class="wrap-login100">
                 <form class="login100-form validate-form" method="POST" action="{{ route('login') }}">
@@ -49,7 +46,6 @@
                         <div class="alert alert-danger" role="alert">
                         <button type="button" class="close btn-danger" data-dismiss="alert">&times;</button>
                         <strong>{{ $errorMessage1 }}</strong>
->>>>>>> angela
                         </div>
                         
                     @enderror
@@ -87,9 +83,6 @@
 <script src="{{asset('vendor/jquery/jquery-3.2.1.min.js')}}"></script>
 
 <script src="{{asset('vendor/animsition/js/animsition.min.js')}}"></script>
-
-
-<script src="{{asset('vendor/bootstrap/js/bootstrap.min.js')}}"></script>
 
 <script src="{{asset('vendor/select2/select2.min.js')}}"></script>
 

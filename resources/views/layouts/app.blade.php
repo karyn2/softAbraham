@@ -14,13 +14,6 @@
     <link href="https://fonts.bunny.net/css?family=Nunito" rel="stylesheet">
     <link rel="stylesheet" href="{{ mix('resources\css\app.css') }}">
 
-    <!-- Bootstrap -->
-    <link rel="stylesheet" href="{{ asset('css/app.css') }}">
-    <script src="{{ asset('js/app.js') }}" defer></script>
-
-    
-
-
     <!-- Scripts  comentario niko -->
     @vite(['resources/sass/app.scss', 'resources/js/app.js'])
 </head>
@@ -46,7 +39,6 @@
                             <a class="nav-link active" aria-current="page" href="#"><b>Institucion Educativa Siglo XX</b></a>
                         </li>
                     </ul>
-
                     <!-- Right Side Of Navbar -->
                     <ul class="navbar-nav ms-auto">
                         <!-- Authentication Links -->
@@ -90,7 +82,7 @@
         </nav>
     </div>
 
-    @auth
+@auth
 <!-- Sidebar -->
 <div class="container-fluid">
     <div class="row">
