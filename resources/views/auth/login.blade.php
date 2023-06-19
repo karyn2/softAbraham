@@ -49,9 +49,7 @@
                         <div class="alert alert-danger" role="alert">
                         <button type="button" class="close btn-danger" data-dismiss="alert">&times;</button>
                         <strong>{{ $errorMessage1 }}</strong>
->>>>>>> angela
-                        </div>
-                        
+                        </div>                        
                     @enderror
                     @error('password')
                         @php
@@ -71,11 +69,11 @@
                         </div>
 
                     </div>
-                    @if (Route::has('password.request'))
+                   <!-- @if (Route::has('password.request'))
                                     <a class="btn btn-link" href="{{ route('password.request') }}">
                                         {{ __('Olvidó su contraseña?') }}
                                     </a>
-                        @endif
+                        @endif-->
                 </form>
             </div>
         </div>
