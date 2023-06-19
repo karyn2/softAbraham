@@ -15,13 +15,12 @@
     <link rel="stylesheet" href="{{ mix('resources\css\app.css') }}">
 
     <!-- Bootstrap -->
-    <link rel="stylesheet" href="{{ asset('css/app.css') }}">
-    <script src="{{ asset('js/app.js') }}" defer></script>
+   
 
     
 
 
-    <!-- Scripts  comentario niko -->
+    <!-- Scripts   -->
     @vite(['resources/sass/app.scss', 'resources/js/app.js'])
 </head>
 <body>
@@ -110,7 +109,7 @@
                     </li>
                     <li class="nav-item ">
                         <a href="#" class="nav-link align-middle px-0">
-                        <img src="{{ asset('img\usuario.png') }}" alt="usuario" class="icono-sidebar"> <span class="ms-1 d-none d-sm-inline ">Usuario</span>
+                        <img src="{{ asset('img\usuario.png') }}" alt="usuario" class="icono-sidebar"> <spam href="{{ route('register') }}" class="ms-1 d-none d-sm-inline ">Usuario</spam>
                         </a>
                     </li>
                     <li class="nav-item ">
