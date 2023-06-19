@@ -1,0 +1,54 @@
+#contenedor{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#titulo{
+    font-size: 22px;
+    background-color: #324F87;
+    color: goldenrod;
+}
+#texto{
+    font-size: 15px;
+}
+#area{
+    background-color:  #B8DBF1;
+}
+#ajusteimagen{
+    .card img {
+        width: 100%; /* Ancho del 100% del contenedor */
+        height: auto; /* Altura automática según la relación de aspecto */
+        object-fit: cover; /* Ajuste de la imagen para cubrir el contenedor */
+      }
+}
+.col-sm-4 {
+    width: 292px; /* Ancho deseado para la card */
+    height: auto; /* Altura automática según el contenido */
+  }
+  
+.col-sm-4 img {
+    width: 100%; /* Ancho del 100% del contenedor */
+    height: auto; /* Altura automática según la relación de aspecto */
+    object-fit: cover; /* Ajuste de la imagen para cubrir el contenedor */
+  }
+#linea{
+    border-color: rgb(255, 255, 255); 
+    border-width: 2px; 
+    border-style: solid; 
+    margin: 10px 0;
+    border-radius: 2px;   
+}
+.boton-personalizado{
+    border: none;
+    background-color: #FFD700; 
+    color: #324F87; /* Color del texto del botón */
+    padding: 5px 25px; /* Espaciado interior del botón */
+    border-radius: 10px; 
+    font-size: 16px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+.boton-personalizado:hover,
+.boton-personalizado.resaltado {
+  transform: scale(1.1); /* Escala del botón */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Sombra */
+}
+
+  

@@ -108,8 +108,8 @@
                         </a>
                     </li>
                     <li class="nav-item ">
-                        <a href="#" class="nav-link align-middle px-0">
-                        <img src="{{ asset('img\usuario.png') }}" alt="usuario" class="icono-sidebar"> <spam href="{{ route('register') }}" class="ms-1 d-none d-sm-inline ">Usuario</spam>
+                        <a href="{{ route('register') }}" class="nav-link align-middle px-0">
+                        <img src="{{ asset('img\usuario.png') }}" alt="usuario" class="icono-sidebar"> <spam class="ms-1 d-none d-sm-inline ">Registro Usuario</spam>
                         </a>
                     </li>
                     <li class="nav-item ">
