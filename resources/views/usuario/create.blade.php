@@ -84,8 +84,9 @@
 
                                     </div>
                                     
-                                    <button class="btn btn-primary" type="submit">Guardar</button>
-                                    <button type="button" class="btn btn-danger">Cancelar</button>
+                                    <button class="btn btn-primary" type="button" disabled >Guardar</button>
+                                    <a href="{{asset('/home')}}" type="button" class="btn btn-danger"> Cancelar</a>
+                                    
                                     </form>
                                 
 

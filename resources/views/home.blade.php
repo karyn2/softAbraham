@@ -47,7 +47,7 @@
     -->
     <div class="row">
       <div class="col-md-4">
-        <a href="pagina_opcion_4.html" class="menu-option" style="background-color: #419BED;">
+        <a href="{{asset('/usuarios/create')}}" class="menu-option" style="background-color: #419BED;">
         <img src="{{ asset('img\agrDocEst.png') }}" alt="matricula" class="icono-sidebar">
           <div>Agregar<br>Docentes y Estudiantes</div>
         </a>
